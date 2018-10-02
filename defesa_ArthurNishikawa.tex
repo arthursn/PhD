@@ -1,0 +1,108 @@
+\documentclass[9pt]{beamer}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}  % graphics alignment
+\usepackage{helvet}  % helvetica
+\usepackage[symbolgreek]{mathastext}  % equations in the same font as text
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{color,colortbl}
+\usepackage{tikz}  % vector graphics
+\usetikzlibrary{shapes,arrows,positioning}
+\usepackage{ulem}  % underlining, striking text
+\usepackage[font=normalsize,labelformat=simple]{subfig} 
+\usepackage{xcolor}  % color text
+\usepackage{hyperref}
+\usepackage{siunitx}  % SI units
+\sisetup{output-decimal-marker={,}}
+
+\newcounter{saveenumi}
+\newcommand{\seti}{\setcounter{saveenumi}{\value{enumi}}}
+\newcommand{\conti}{\setcounter{enumi}{\value{saveenumi}}}
+
+\resetcounteronoverlays{saveenumi}
+
+\renewcommand{\thesubfigure}{\relax}  % Do nothing for the counter »subfigure«
+
+\setbeamerfont{footnote}{size=\tiny}
+\setbeamercovered{transparent}
+
+\usetheme[
+%%% options passed to the outer theme
+%    hidetitle,           % hide the (short) title in the sidebar
+%    hideauthor,          % hide the (short) author in the sidebar
+%    hideinstitute,       % hide the (short) institute in the bottom of the sidebar
+%    shownavsym,          % show the navigation symbols
+%    width=2cm,           % width of the sidebar (default is 2 cm)
+%    hideothersubsections,% hide all subsections but the subsections in the current section
+%    hideallsubsections,  % hide all subsections
+%    left                % right of left position of sidebar (default is right)
+]{Aalborg}
+
+%%% Macro para colorir linha da tabela
+\makeatletter
+  \def\rowcolor{\noalign{\ifnum0=`}\fi\bmr@rowcolor}
+  \newcommand<>{\bmr@rowcolor}{%
+    \alt#1%
+    {\global\let\CT@do@color\CT@@do@color\@ifnextchar[\CT@rowa\CT@rowb}% 
+    {\ifnum0=`{\fi}\@gooble@rowcolor}% 
+  }
+  \newcommand{\@gooble@rowcolor}[2][]{\@gooble@rowcolor@}
+  \newcommand{\@gooble@rowcolor@}[1][]{\@gooble@rowcolor@@}
+  \newcommand{\@gooble@rowcolor@@}[1][]{\ignorespaces}
+\makeatother
+%%% Macro termina aqui
+
+\title[T\&P de Ferros Fundidos Nodulares]{Têmpera e Partição de Ferros Fundidos Nodulares: Microestrutura e Cinética}
+\author[Arthur Nishikawa]{\emph{Arthur Seiji Nishikawa}\\Orientador: Prof. Hélio Goldenstein\\Coorientador: Prof. André Paulo Tschiptschin}
+\institute[Depto. de Engenharia Metalúrgica e de Materiais - EPUSP]{Departamento de Engenharia Metalúrgica e de Materiais\\
+      Escola Politécnica - Universidade de São Paulo}
+\date{1º de outubro de 2018}
+
+\pgfdeclareimage[width=1cm]{mainlogo}{AAUgraphics/EP-Circular.pdf}
+\logo{\pgfuseimage{mainlogo}}
+
+\AtBeginSection[]{
+  \begin{frame}<beamer>{Sumário}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+\pgfdeclareimage[width=2cm]{titlepagelogo}{AAUgraphics/EP-Circular.pdf}
+\titlegraphic{
+  \pgfuseimage{titlepagelogo}
+}
+
+\begin{document}
+
+% \begin{frame}
+%   \begin{figure}
+%   \href{img/test.mp4}{
+%     \includegraphics[width=.8\textwidth]{img/C_profiles.pdf}
+%   }
+%   \end{figure}
+% \end{frame}
+\begin{frame}[plain,noframenumbering]
+  \titlepage
+\end{frame}
+
+\begin{frame}{Sumário}
+  \tableofcontents
+\end{frame}
+
+\input{secoes/introducao.tex}
+
+\input{secoes/metodologia.tex}
+
+\input{secoes/resultados.tex}
+
+\input{secoes/conclusoes.tex}
+
+\begin{frame}[plain,noframenumbering]
+  \finalpage{Obrigado pela atenção!}
+\end{frame}
+
+\end{document}
