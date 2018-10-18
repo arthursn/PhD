@@ -224,7 +224,7 @@ if __name__ == '__main__':
                         nargs=2, default=None)
     parser.add_argument('-T', '--title', default=None)
 
-    parser.add_argument('-s', '--silent', action='store_false')
+    parser.add_argument('-s', '--silent', action='store_true')
     parser.add_argument('-S', '--save', action='store_true')
     parser.add_argument('-d', '--dpi', default=300)
 
@@ -260,5 +260,5 @@ if __name__ == '__main__':
         if args.save:
             cpartition.save_animation(dpi=args.dpi)
 
-    if args.silent:
+    if not args.silent:
         plt.show()
