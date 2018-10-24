@@ -125,6 +125,24 @@ class CPartitionAnimation(object):
         if self.title:
             self.ax.set_title(self.title)
 
+        i = self.time_idx[0]
+        z, c, t = self.cprofiles.get_cprofile(i, self.mirror, self.x2wp)
+        self.line, = self.ax.plot(z, c, 'k-')
+
+        axis = ''
+        if self.xlim is None:
+            axis += 'x'
+        if self.ylim is None:
+            axis += 'y'
+        axis = axis.replace('xy', 'both')
+        
+        if axis:
+            self.ax.autoscale(True, axis=axis, tight=True)
+            self.ax.autoscale(False)
+
+        self.time_text = self.ax.text(0.02, 0.98, '', va='top',
+                                      transform=self.ax.transAxes)
+
         self.ani = None
 
         self.artists = []
@@ -139,23 +157,8 @@ class CPartitionAnimation(object):
     def initialize_plot(self):
         self.tprevious = 0
 
-        i = self.time_idx[0]
-        z, c, t = self.cprofiles.get_cprofile(i, self.mirror, self.x2wp)
-
-        self.line, = self.ax.plot(z, c, 'k-')
-        self.time_text = self.ax.text(0.02, 0.98, '', va='top',
-                                      transform=self.ax.transAxes)
-
-        axis = ''
-        if self.xlim is None:
-            axis += 'x'
-        if self.ylim is None:
-            axis += 'y'
-        axis = axis.replace('xy', 'both')
-
-        if axis:
-            self.ax.autoscale(True, axis=axis, tight=True)
-            self.ax.autoscale(False)
+        self.line.set_data([], [])
+        self.time_text.set_text('')
 
         return [self.line, self.time_text] + self.artists
 
