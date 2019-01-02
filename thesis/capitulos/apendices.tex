@@ -1,0 +1,49 @@
+\apendice{Discretização implícita da segunda lei de Fick}
+
+\label{ap:discretizacao_Fick}
+
+A segunda lei de Fick na forma unidimensional para coordenadas cartesianas é expressa como:
+
+\begin{equation}
+  \frac{\partial c}{\partial t} = \frac{\partial}{\partial z} \left( D \frac{\partial c}{\partial z} \right)
+\end{equation}
+%
+em que $c$ é a concentração de soluto, $t$ é o tempo, $z$ a posição e $D$ o coeficiente de difusão.
+
+Usando a regra das cadeias, tem-se:
+
+\begin{equation}
+  \frac{\partial c}{\partial t} =  D \frac{\partial^2 c}{\partial z^2} + \frac{\partial D}{\partial z} \frac{\partial c}{\partial z}
+  \label{eq:Fick_cadeia}
+\end{equation}
+ 
+Utilizando a aproximação de diferenças centrais para calcular as derivadas, a equação \ref{eq:Fick_cadeia} é discretizada da seguinte forma:
+
+\begin{align}
+  \frac{c^{t+1}_i - c^{t}_i}{\Delta t} &=  D_i^{t} \frac{c^{t+1}_{i+1} - 2 c^{t+1}_{i} + c^{t+1}_{i-1}}{\Delta z^2} + \frac{D^{t}_{i+1} - D^{t}_{i-1}}{2\Delta z} \frac{c^{t+1}_{i+1} - c^{t+1}_{i-1}}{2\Delta z} \nonumber \\
+  &= \frac{1}{\Delta z^2} \left( c^{t+1}_{i+1} D_i^{t} - 2 c^{t+1}_{i} D_i^{t} + c^{t+1}_{i-1} D_i^{t} \right) \nonumber \\
+  &+ \frac{1}{\Delta z^2} \left( c^{t+1}_{i+1} \frac{D^{t}_{i+1} - D^{t}_{i-1}}{4} - c^{t+1}_{i-1} \frac{D^{t}_{i+1} - D^{t}_{i-1}}{4} \right) \Rightarrow \nonumber \\
+  c^{t+1}_i - c^t_i &= \frac{\Delta t}{\Delta z^2} \left[c^{t+1}_{i+1}\left(D^{t}_i +  \frac{D^{t}_{i+1} - D^{t}_{i-1}}{4}\right) - 2 c^{t+1}_{i} D_i^{t} \right. \nonumber \\
+  &\left.+ c^{t+1}_{i-1}\left(D^{t}_i - \frac{D^{t}_{i+1} - D^{t}_{i-1}}{4}\right)\right]
+\end{align}
+%
+em que o índice $i$ representa a posição do nó da malha de simulação e o índice $t$ representa o tempo. Note-se que os termos referentes à derivada da concentração foram discretizados implicitamente, enquanto que o coeficiente de difusão foi discretizado explicitamente. Finalmente:
+
+\begin{align}
+  c^t_i &= -c^{t+1}_{i+1}\left(D^{t}_i + \frac{D^{t}_{i+1} - D^{t}_{i-1}}{4}\right)\frac{\Delta t}{\Delta z^2} + c^{t+1}_{i} \left(1 + 2 D_i^{t}\frac{\Delta t}{\Delta z^2}\right) \nonumber\\
+  &- c^{t+1}_{i-1}\left(D^{t}_i - \frac{D^{t}_{i+1} - D^{t}_{i-1}}{4}\right)\frac{\Delta t}{\Delta z^2}
+  \label{eq:discretizacao_explodida}
+\end{align}
+
+A equação \ref{eq:discretizacao_explodida} pode ser simplificada ao nomear os seguintes termos:
+
+\begin{align}
+  r^{t}_{i} &= D^{t}_{i}\frac{\Delta t}{\Delta z^2}\\
+  g^{t}_{i} &= \left(\frac{D^{t}_{i+1} - D^{t}_{i-1}}{4}\right)\frac{\Delta t}{\Delta z^2}
+\end{align}
+
+Assim, a discretização assume a forma mais familiar abaixo:
+
+\begin{equation}
+  c^t_i = -\left(r^{t}_{i} + g^{t}_{i}\right) c^{t+1}_{i+1} + \left(1 + 2 r^{t}_{i}\right) c^{t+1}_{i} - \left(r^{t}_{i} - g^{t}_{i}\right) c^{t+1}_{i-1}
+\end{equation}

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="2000"
+   height="1256.0262"
+   sodipodi:docname="map_TT170TP300.pdf"
+   inkscape:export-filename="/home/arthur/Dropbox/Pesquisa/Mestrado/Texto/latex/img/XTMS/map_TT170TP300.png"
+   inkscape:export-xdpi="100"
+   inkscape:export-ydpi="100">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path3781"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         id="path3787"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1863"
+     inkscape:window-height="1056"
+     id="namedview4"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.54445464"
+     inkscape:cx="1241.768"
+     inkscape:cy="531.95723"
+     inkscape:window-x="57"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       orientation="0,1"
+       position="937.05701,1112"
+       id="guide2993" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="890.81972,1108.2712"
+       id="guide2995" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="957.1926,1100.0678"
+       id="guide2997" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="890.81972,1200"
+       id="guide3001" />
+  </sodipodi:namedview>
+  <image
+     y="56.026283"
+     x="0"
+     id="image3063"
+     xlink:href="file:///home/arthur/texto_tese/img/XTMS/map_TT170TP300.png"
+     height="1200"
+     width="2000" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 884.81972,144.02628 0,-99.515191"
+     id="path2999"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 953.1926,144.02628 0,0 0,-99.515141"
+     id="path3003"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Lstart)"
+     d="m 882.39335,44.511139 -117.32681,0"
+     id="path3005"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Lstart)"
+     d="m 955.1926,44.511139 113.5588,0"
+     id="path3007"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+     x="1083.4386"
+     y="28.632812"
+     id="text4407"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4409"
+       x="1083.4386"
+       y="28.632812">lacuna entre os dois </tspan><tspan
+       sodipodi:role="line"
+       x="1083.4386"
+       y="78.632812"
+       id="tspan4411">detetores Mythen</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:44px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+     x="202.24345"
+     y="141.61945"
+     id="text3001"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3003"
+       x="202.24345"
+       y="141.61945">(111)<tspan
+   style="font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+   id="tspan3013">γ</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:44px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+     x="328.75195"
+     y="141.85577"
+     id="text3005"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3007"
+       x="328.75195"
+       y="141.85577">(110)<tspan
+   style="font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+   id="tspan3015">α</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:44px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+     x="710.34515"
+     y="139.55167"
+     id="text3009"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3011"
+       x="710.34515"
+       y="139.55167" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:44px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+     x="545.74255"
+     y="141.61945"
+     id="text3001-8"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3003-1"
+       x="545.74255"
+       y="141.61945">(200)<tspan
+   style="font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+   id="tspan3013-4">γ</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:44px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+     x="1225.0646"
+     y="141.85577"
+     id="text3005-6"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3007-1"
+       x="1225.0646"
+       y="141.85577">(200)<tspan
+   style="font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+   id="tspan3015-4">α</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:44px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+     x="1600.2963"
+     y="141.61945"
+     id="text3001-8-6"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3003-1-2"
+       x="1600.2963"
+       y="141.61945">(220)<tspan
+   style="font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+   id="tspan3013-4-0">γ</tspan></tspan></text>
+</svg>

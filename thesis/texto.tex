@@ -1,0 +1,126 @@
+\documentclass[hidelinks,brazil,tese,epusp]{usp}
+\usepackage[T1]{fontenc}  %Orienta a saída do texto a reproduzir caracteres especiais
+\usepackage[utf8]{inputenc} %Permite que o usuário redija o documento utilizando caracteres especiais UTF-8
+
+\usepackage{graphicx}  %Pacote de gerenciamento de figuras. Padrão para qualquer documento em LaTeX
+\usepackage{helvet}  %Define Helvetica como fonte Sans Serif padrão
+\usepackage{fancyvrb}  %Serve, por exemplo para aplicar estilos de texto individuais em trechos do texto
+\usepackage{babel}  %Pacote de idioma
+\usepackage{textcomp}  %Graças a esse pacote eu não preciso me preocupar com o símbolo °
+%\usepackage{textgreek} %Define comandos para chamar letras gregas. Passei a usar o modo matemático pra isso.
+%\usepackage{fixltx2e}  %Define \textsubscript{}, por exemplo.
+\usepackage[font=normalsize]{subfig}  %Habilita utilização de subfiguras nos campos de figuras.
+\usepackage{indentfirst}  %Faz a primeira linha após o chapter head ser indentada (vide definição de \thickline abaixo)
+\usepackage{array}  %Graças a ele eu consigo editar elementos de tabela.
+\usepackage{amsmath}  %Pacote com complementos do modo matemático.
+\usepackage[symbolgreek]{mathastext}  %Equações ficam na mesma fonte do texto graças a isso. http://jf.burnol.free.fr/v13/mathastext.pdf
+%\usepackage{paralist}  %Possibilita a criação de listas (ambiente enumerate) "inline".
+\usepackage[hang,flushmargin]{footmisc}  %Deixa a indentação do rodapé do jeito que eu quero (vide exemplos no texto).
+\usepackage{enumerate}  %Formata rótulos de listas enumeradas
+
+\usepackage{siunitx}  %Formatação grandezas sistema internacional
+\sisetup{output-decimal-marker={,}}
+
+\usepackage{multirow}  %Multi colunas e multi linhas em tabelas
+
+\makeatletter
+%%% Macro incrível que peguei no http://tex.stackexchange.com/questions/101002/interrupting-and-resuming-subequations
+%%% para parar e retomar subequações no LaTeX. Fantástico!
+\def\user@resume{resume}
+\def\user@intermezzo{intermezzo}
+%
+\newcounter{previousequation}
+\newcounter{lastsubequation}
+\newcounter{savedparentequation}
+\setcounter{savedparentequation}{1}
+% 
+\renewenvironment{subequations}[1][]{%
+  \def\user@decides{#1}%
+  \setcounter{previousequation}{\value{equation}}%
+  \ifx\user@decides\user@resume 
+    \setcounter{equation}{\value{savedparentequation}}%
+  \else  
+  \ifx\user@decides\user@intermezzo
+    \refstepcounter{equation}%
+  \else
+    \setcounter{lastsubequation}{0}%
+    \refstepcounter{equation}%
+  \fi\fi
+  \protected@edef\theHparentequation{%
+  \@ifundefined {theHequation}\theequation \theHequation}%
+  \protected@edef\theparentequation{\theequation}%
+  \setcounter{parentequation}{\value{equation}}%
+  \ifx\user@decides\user@resume 
+    \setcounter{equation}{\value{lastsubequation}}%
+  \else
+    \setcounter{equation}{0}%
+  \fi
+  \def\theequation  {\theparentequation  \alph{equation}}%
+  \def\theHequation {\theHparentequation \alph{equation}}%
+  \ignorespaces
+}{%
+%  \arabic{equation};\arabic{savedparentequation};\arabic{lastsubequation}
+  \ifx\user@decides\user@resume
+    \setcounter{lastsubequation}{\value{equation}}%
+    \setcounter{equation}{\value{previousequation}}%
+  \else
+  \ifx\user@decides\user@intermezzo
+    \setcounter{equation}{\value{parentequation}}%
+  \else
+    \setcounter{lastsubequation}{\value{equation}}%
+    \setcounter{savedparentequation}{\value{parentequation}}%
+    \setcounter{equation}{\value{parentequation}}%
+  \fi\fi
+%  \arabic{equation};\arabic{savedparentequation};\arabic{lastsubequation}
+  \ignorespacesafterend
+}
+%%% Termina aqui a macro
+
+%%%Define linhas horizontais (\thickline) e verticais (') para tabelas
+\newcommand{\thickhline}{
+  \noalign {\ifnum 0=`}\fi \hrule height 1.5pt
+  \futurelet \reserved@a \@xhline
+}
+\newcolumntype{'}{@{\hskip\tabcolsep\vrule width 1.5pt\hskip\tabcolsep}}
+\makeatother
+
+\begin{document}
+\bibliographystyle{usp}
+
+\titulo{Têmpera e Partição de ferros fundidos nodulares: microestrutura e cinética}
+\autor{Arthur Seiji Nishikawa}
+\orientador{Prof. Dr. Hélio Goldenstein}
+\coorientador{Prof. Dr. André Paulo Tschiptschin}
+\programa{3133}
+\departamento{ep-pmt}
+
+\input{capitulos/pretextuais}
+
+\elementospretextuais  %Comando do USPTeX para criação dos elemenos pré-textuais do documento
+
+\setlength\parindent{.85cm}  %Define em 0,85cm a identação da primeira linha do parágrafo.
+
+\input{capitulos/introducao}
+
+\input{capitulos/objetivos}
+
+\input{capitulos/revisao}
+
+\input{capitulos/matmet}
+
+\input{capitulos/resultados}
+
+\input{capitulos/discussao}
+
+\input{capitulos/conclusoes}
+
+\input{capitulos/trabalhos_futuros}
+
+\input{capitulos/apendices}
+
+\input{capitulos/lista_publicacoes}
+
+\bibliography{referencias}
+% \bibliography{/home/arthur/Dropbox/Pesquisa/library}
+
+\end{document}

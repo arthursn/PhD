@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="624.96228"
+   height="361.34564"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="expproc_dil.svg"
+   inkscape:export-filename="/home/arthur/texto_tese/img/expproc_dil.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path4224"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mstart"
+       style="overflow:visible">
+      <path
+         id="path4232"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6,0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         id="path4217"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lstart"
+       style="overflow:visible">
+      <path
+         id="path7377"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(1.1,0,0,1.1,1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3866"
+       effect="spiro" />
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path7774" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path7786" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.1368951"
+     inkscape:cx="275.23236"
+     inkscape:cy="209.47068"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1317"
+     inkscape:window-height="744"
+     inkscape:window-x="49"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4262"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="-83.156906px"
+       originy="-11.303031px" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="359.65474,133.91502"
+       id="guide3034" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="359.65474,133.91502"
+       id="guide3036" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="386.92199,29.683759"
+       id="guide3038" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="277.60933,140.46648"
+       id="guide5072" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-83.156906,-679.71343)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Lstart);marker-end:none"
+       d="m 676.02535,1011.4133 -27.36111,-104.4165 -319,0 -10.35714,52.14286 -40,0 -39.64286,-222.14286 -85,0 -43.8071,274.4917"
+       id="path2989"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="/home/arthur/Desktop/exp_proc.png" />
+    <path
+       style="fill:#0a0000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 1;stroke-dashoffset:0"
+       d=""
+       id="path5252"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/arthur/Desktop/exp_proc.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#0a0000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 1;stroke-dashoffset:0"
+       d=""
+       id="path5256"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/arthur/Desktop/exp_proc.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#0a0000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 1;stroke-dashoffset:0"
+       d=""
+       id="path5297"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/arthur/Desktop/exp_proc.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#0a0000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 1;stroke-dashoffset:0"
+       d=""
+       id="path5311"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/arthur/Desktop/exp_proc.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#0a0000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 1;stroke-dashoffset:0"
+       d=""
+       id="path5317"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/arthur/Desktop/exp_proc.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d=""
+       id="path5739"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/arthur/Desktop/exp_proc.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow1Mend)"
+       d="m 109.89959,682.36218 0,330.00002 595.71959,-0.075"
+       id="path8409"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/arthur/Desktop/exp_proc.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       sodipodi:nodetypes="ccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="380.76791"
+       y="1036.687"
+       id="text8411"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/arthur/Desktop/exp_proc.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan8413"
+         x="380.76791"
+         y="1036.687"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Tempo</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="-903.74127"
+       y="98.904953"
+       id="text8415"
+       sodipodi:linespacing="125%"
+       transform="matrix(0,-1,1,0,0,0)"
+       inkscape:export-filename="/home/arthur/Desktop/exp_proc.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan8417"
+         x="-903.74127"
+         y="98.904953"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Temperatura</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+       x="141.64471"
+       y="692.89069"
+       id="text5236"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/arthur/Desktop/exp_proc.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan5238"
+         x="141.64471"
+         y="692.89069" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+       x="153.13564"
+       y="730.83563"
+       id="text5240"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/arthur/Desktop/exp_proc.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan5242"
+         x="153.13564"
+         y="730.83563"
+         style="font-size:18px">T<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan4235">A</tspan> / 30 min</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+       x="290.13712"
+       y="984.82477"
+       id="text5244"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/arthur/Desktop/exp_proc.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan5246"
+         x="290.13712"
+         y="984.82477" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+       x="270.16422"
+       y="976.56818"
+       id="text5260"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/arthur/Desktop/exp_proc.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan5262"
+         x="270.16422"
+         y="976.56818"
+         style="font-size:18px">T<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan4239">T</tspan> / 1 min</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:Arial;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none"
+       x="446.76624"
+       y="900.59259"
+       id="text5264"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/arthur/Desktop/exp_proc.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan5266"
+         x="446.76624"
+         y="900.59259"
+         style="font-size:18px">T<tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan4237">P</tspan> / t<tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan4234"> P</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+       x="137.48161"
+       y="868.37201"
+       id="text5240-1"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/arthur/Desktop/exp_proc.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan5242-6"
+         x="137.48161"
+         y="868.37201"
+         style="font-size:18px">10°C/s</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+       x="264.24982"
+       y="845.55505"
+       id="text5082"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5084"
+         x="264.24982"
+         y="845.55505"
+         style="font-size:18px">-50°C/s</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+       x="333.85541"
+       y="286.86292"
+       id="text5086"
+       sodipodi:linespacing="125%"
+       transform="translate(0,652.36218)"><tspan
+         sodipodi:role="line"
+         id="tspan5088"
+         x="333.85541"
+         y="286.86292"
+         style="font-size:18px">10°C/s</tspan></text>
+    <g
+       id="g5058"
+       transform="translate(76,0)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text5742"
+         y="706.42175"
+         x="315.3204"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           y="706.42175"
+           x="315.3204"
+           id="tspan5744"
+           sodipodi:role="line">Temperatura de austenitização</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5746"
+         y="733.00336"
+         x="315.3204"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           y="733.00336"
+           x="315.3204"
+           id="tspan5748"
+           sodipodi:role="line">Temperatura de têmpera</tspan></text>
+      <text
+         sodipodi:linespacing="150%"
+         id="text5750"
+         y="761.50684"
+         x="315.3204"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:Arial;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="761.50684"
+           x="315.3204"
+           id="tspan5752"
+           sodipodi:role="line"
+           style="line-height:150%">Temperatura de partição</tspan><tspan
+           y="786.50684"
+           x="315.3204"
+           sodipodi:role="line"
+           id="tspan4240"
+           style="line-height:150%">tempo de partição</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5754"
+         y="706.40906"
+         x="268.83017"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           y="706.40906"
+           x="268.83017"
+           id="tspan5756"
+           sodipodi:role="line">T<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan4229">A</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5758"
+         y="732.9516"
+         x="268.83017"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           y="732.9516"
+           x="268.83017"
+           id="tspan5760"
+           sodipodi:role="line">T<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan4231">T</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="150%"
+         id="text5762"
+         y="761.49414"
+         x="268.83017"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:Arial;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="761.49414"
+           x="268.83017"
+           id="tspan5764"
+           sodipodi:role="line"
+           style="line-height:150%">T<tspan
+   style="font-size:64.99999762%;baseline-shift:sub;line-height:150%"
+   id="tspan4233">P</tspan></tspan><tspan
+           y="786.49414"
+           x="268.83017"
+           sodipodi:role="line"
+           id="tspan4236"
+           style="line-height:150%">t<tspan
+   style="font-size:65%;baseline-shift:sub;line-height:150%"
+   id="tspan4238">P</tspan></tspan></text>
+    </g>
+  </g>
+</svg>
