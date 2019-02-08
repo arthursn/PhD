@@ -18,7 +18,7 @@ ax1.plot(df_Vieira['Temperature'], df_Vieira['Dilation']/100.,
          color='0.6', lw=1.5, label='Vieira et al.')
 f = interp1d(df_Vieira['Temperature'], df_Vieira['Dilation']/100.)
 
-df_FoFo = pd.read_table(('/home/arthur/Dropbox/Dilatometria/Arthur_Nishikawa/'
+df_FoFo = pd.read_csv(('/home/arthur/Dropbox/Dilatometria/Arthur_Nishikawa/'
                          'Cast_Iron/Tempering/FoFo-tempering_12oCs-1.asc'), sep=' ')
 ax1.plot(df_FoFo['TC1'], df_FoFo['dl.um']/100.,
          color='0', lw=1.5, label='Cast iron')

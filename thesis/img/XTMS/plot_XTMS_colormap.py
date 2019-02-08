@@ -28,14 +28,14 @@ try:
     data_mythen
 except:
     filepath = '/home/arthur/Documents/XTMS/2015-05/Resultados_FoFo/QP/raw_Mythen/FoFo_PT300-2h.mythen'
-    data_mythen = pd.read_table(filepath, sep=' ', comment='#',
+    data_mythen = pd.read_csv(filepath, sep=' ', comment='#',
                                 header=None, names=['tth', 'num', 'mythen'])
 
 try:
     peaks
 except:
     filepath = '/home/arthur/Documents/XTMS/2015-05/Resultados_FoFo/QP/tth/FoFo_PT300-2h_tth.dat'
-    peaks = pd.read_table(filepath, sep=' ')
+    peaks = pd.read_csv(filepath, sep=' ')
 
 xmin, xmax = 150, 400
 tth = data_mythen['tth'].values
